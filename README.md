@@ -4,15 +4,15 @@ This gem is a very simple wrapper for textkernel API to be able to parse CV pdfs
 
 ## Required ENV variables
 
-- TEXTKERNEL_ENV (default: staging, possible values: `staging` | `home`)
-- TEXTKERNEL_USERNAME
-- TEXTKERNEL_ACCOUNT
-- TEXTKERNEL_PASSWORD
+- `TEXTKERNEL_ENV` (default: staging, possible values: `staging` | `home`)
+- `TEXTKERNEL_USERNAME`
+- `TEXTKERNEL_ACCOUNT`
+- `TEXTKERNEL_PASSWORD`
 
 ## Usage
 
 ```ruby
-Textkernel.parse_cv(File.open(File.expand_path('~/Desktop/cv.pdf'))
+Textkernel.parse_cv(File.open(File.expand_path('~/Desktop/cv.pdf')))
 ```
 
 ## Example output
