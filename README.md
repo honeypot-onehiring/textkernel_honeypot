@@ -1,6 +1,6 @@
 # Welcome to textkernel_honeypot gem
 
-This gem is a very simple wrapper for textkernel API to be able to parse CV pdfs in ruby language.
+This gem is a very simple wrapper for textkernel API to be able to parse CV PDFs in ruby language.
 
 ## Required ENV variables
 
