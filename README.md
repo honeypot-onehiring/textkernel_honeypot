@@ -129,6 +129,14 @@ Textkernel.parse_cv(File.open(File.expand_path('~/Desktop/cv.pdf')))
  "customArea"=>{}}
 ```
 
+## Testing
+
+    cp .env.example .env
+    . .env
+    bundle install --path vendor/bundle
+    bundle exec rubocop
+    bundle exec rspec
+
 ## License
 
 MIT

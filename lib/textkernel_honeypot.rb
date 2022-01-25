@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'json'
+require 'restclient'
 
 class Textkernel
   ENVIRONMENT = ENV.fetch('TEXTKERNEL_ENV', 'staging')

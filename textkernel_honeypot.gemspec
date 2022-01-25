@@ -5,7 +5,7 @@ Gem::Specification.new do |spec|
   spec.version = '0.0.1'
   spec.authors = ['Andrzej Trzaska']
   spec.email = ['atrzaska2@gmail.com']
-  spec.licenses    = ['MIT']
+  spec.licenses = ['MIT']
 
   spec.summary = 'Simple gem wrapper for cv parsing via textkernel'
   spec.description = 'Simple gem wrapper for cv parsing via textkernel.'
@@ -24,4 +24,5 @@ Gem::Specification.new do |spec|
   end
   spec.require_paths = ['lib']
   spec.add_dependency 'rest-client'
+  spec.metadata['rubygems_mfa_required'] = 'true'
 end
