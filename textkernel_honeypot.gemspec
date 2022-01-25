@@ -24,5 +24,4 @@ Gem::Specification.new do |spec|
   end
   spec.require_paths = ['lib']
   spec.add_dependency 'rest-client'
-  spec.add_dependency 'rest-client_honeypot'
 end
